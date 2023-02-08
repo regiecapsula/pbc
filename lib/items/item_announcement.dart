@@ -7,6 +7,7 @@ class Announcement extends StatelessWidget {
   // Constructor
   Announcement({required this.announcement});
 
+
   @override
   Widget build(BuildContext context) {
     return Padding(

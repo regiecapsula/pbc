@@ -4,7 +4,13 @@ import 'package:pbc/pages/home.dart';
 import 'package:pbc/pages/property.dart';
 import 'package:pbc/pages/songs.dart';
 
-void main() {
+//firebase
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(PBC());
 }
 
@@ -45,16 +51,14 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: IndexedStack(
-          index: _selectedIndex,
-          children: _widgetOptions,
-        )
-      ),
+          child: IndexedStack(
+        index: _selectedIndex,
+        children: _widgetOptions,
+      )),
       bottomNavigationBar: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
           items: const <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-                icon: Icon(Icons.home), label: "Home"),
+            BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
             BottomNavigationBarItem(
                 icon: Icon(Icons.music_note), label: "Songs"),
             BottomNavigationBarItem(

@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "707536276606",
+    "firebase_url": "https://pbc-app-13e0f-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pbc-app-13e0f",
+    "storage_bucket": "pbc-app-13e0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707536276606:android:a0fbe5d46889242b6d1c2f",
+        "android_client_info": {
+          "package_name": "com.pbc.pbc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707536276606-faqnif7u5alulbjt41k6rmok17d5hlif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIWQtonPs2ZEyXC8w9FaEHNpxfCVSJeIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707536276606-faqnif7u5alulbjt41k6rmok17d5hlif.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "707536276606-db6tlcuu06kdc9r8op5gl49hnjqf2gv3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pidawanbaptistchurch.pbc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707536276606:android:4bda06679c82f97f6d1c2f",
+        "android_client_info": {
+          "package_name": "com.pidawanbaptistchurch.pbc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707536276606-faqnif7u5alulbjt41k6rmok17d5hlif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIWQtonPs2ZEyXC8w9FaEHNpxfCVSJeIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707536276606-faqnif7u5alulbjt41k6rmok17d5hlif.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "707536276606-db6tlcuu06kdc9r8op5gl49hnjqf2gv3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pidawanbaptistchurch.pbc"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
