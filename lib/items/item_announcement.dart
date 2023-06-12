@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Announcement extends StatelessWidget {
+class Announcement extends ListTile {
   // Fields
   final String announcement;
 
   // Constructor
   Announcement({required this.announcement});
-
 
   @override
   Widget build(BuildContext context) {
